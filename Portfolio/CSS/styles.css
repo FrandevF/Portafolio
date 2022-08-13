@@ -1,7 +1,41 @@
-* {
-    background-color:red;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-html{
-    font-size: 2em;
+header{
+    background-color: #5589c4;
+}
+
+.nav-bar li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.nav-bar li a {
+    margin: 15px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#hero {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 80vh;
+   background-image: linear-gradient(0deg, rgba(0,0,0, 0.5),rgba(0, 0, 0, 0.5)),url("/Portfolio/assets/hero.jpg");
+   background-position: start;
+   background-size: cover;
+}
+#hero p {
+    color: #FFF;
+    font-size: 1.8em;
+    background-color: pink;
+    border-radius: 10px;
+   
 }
