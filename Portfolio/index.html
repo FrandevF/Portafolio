@@ -7,20 +7,40 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Franco Portafolio</title>
     <script src="https://kit.fontawesome.com/fa6f79322b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            
-            <li><a href="#"><i class="fa-solid fa-address-card"></i> Sobre mi</a></li>
-            <li><a href="#"><i class="fa-solid fa-address-book"></i> Contacto</a></li>
-            <li><a href="#"><i class="fa-solid fa-rectangle-history"></i>Mis proyectos</a></li>
-            <li><a href="#"><i class="fa-solid fa-microchip"></i> Tecnologias</a></li>
+    
+        <nav class="nav">   
+
+        <div class="nav__container">
+
+            <h1 class="nav__logo">Fran<span>Dev</span></h1>
+
+            <label for="menu" class="nav__label">
+               <img src="assets/menu.svg" animation='tada' alt="">
+            </label>
+
+            <input type="checkbox" id="menu" class="nav__input">
+
+            <div class="nav__menu">
+                <a href="#about-me" class="nav__item"><box-icon name='user-circle' color='#FF2299' animation='spin'  class="icons" ></box-icon> Sobre mi</a>
+                <a href="#" class="nav__item"><box-icon name='contact' type='solid' animation='tada' color='#FF2299' class="icons" ></box-icon>Contacto</a>
+                <a href="#" class="nav__item"><box-icon name='folder-open' type='solid' animation='tada' color='#FF2299' class="icons"></box-icon> Mis proyectos</a>
+                <a href="#" class="nav__item"><box-icon name='chip' color='#FF2299' animation='spin' class="icons" ></box-icon> Tecnologias</a>
+            </div>     
+            </div>   
         </nav>
-    </header>
+
     <!-- HERO -->
     <section id="hero">
-        <p>bienvenido a mi página web</p>
+        <div class="container">
+  <p class="glitch">
+    <span aria-hidden="true">FullStack Developer</span>
+    FullStack Developer
+    <span aria-hidden="true">FullStack Developer</span>
+  </p>
+</div>
         <div class="img"></div>
         
     </section>
@@ -85,5 +105,6 @@
             </ul>
         </div>
     </section>
+
 </body>
 </html>
